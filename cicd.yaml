@@ -24,8 +24,8 @@ jobs:
 
       - name: Build Docker Image
         run: |
-          docker build -t vamsikrishna212/devtinder-be:latest .
+          docker build -t vamsikrishna212/devtinder-be:v1 .
 
       - name: Push Docker Image
         run: |
-          docker push vamsikrishna212/devtinder-be:latest is this good 
+          docker push vamsikrishna212/devtinder-be:v1
