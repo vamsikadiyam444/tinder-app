@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: vamsikrishna212/devtinder-be:latest
+          image: vamsikrishna212/devtinder-be:v1
           ports:
             - containerPort: 5000
           env:
